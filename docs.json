@@ -39,8 +39,6 @@
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
       "chatgpt",
       "claude",
       "perplexity",
@@ -51,9 +49,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://discord.gg/CEmhc3AyR9",
+      "website": "https://zortexia.hu"
     }
   }
 }
