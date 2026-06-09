@@ -18,7 +18,14 @@
         ]
       }
     ],
-    "groups": []
+    "tabs": [
+      {
+        "tab": "Üdvőzlés",
+        "pages": [
+          "welcome"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
