@@ -52,5 +52,12 @@
       "discord": "https://discord.gg/CEmhc3AyR9",
       "website": "https://zortexia.hu"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "discord",
+      "destination": "https://discord.gg/CEmhc3AyR9",
+      "permanent": true
+    }
+  ]
 }
