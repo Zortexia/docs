@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Zortexia",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#632bd2",
+    "light": "#7c34ca",
+    "dark": "#2c096b"
   },
   "favicon": "/favicon.svg",
   "navigation": {
