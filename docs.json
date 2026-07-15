@@ -71,5 +71,8 @@
       "title": "Az Oldal Nem Található",
       "description": "Szerintem nem található az oldal amit keresel."
     }
+  },
+  "search": {
+    "prompt": "Keresés vagy Kérdezés"
   }
 }
