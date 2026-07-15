@@ -74,5 +74,6 @@
   },
   "search": {
     "prompt": "Keresés vagy Kérdezés"
-  }
+  },
+  "description": "A dokumentációs oldala a szervernek, itt találsz meg minden információt egyes funkciókról."
 }
