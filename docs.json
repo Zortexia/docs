@@ -18,30 +18,35 @@
         ]
       }
     ],
-    "tabs": [
+    "languages": [
       {
-        "tab": "Üdvőzlés",
-        "pages": [
-          "welcome"
+        "language": "hu",
+        "tabs": [
+          {
+            "tab": "Üdvőzlés",
+            "pages": [
+              "welcome"
+            ]
+          },
+          {
+            "tab": "KitPvP"
+          },
+          {
+            "tab": "Kingdoms"
+          },
+          {
+            "tab": "Creative"
+          },
+          {
+            "tab": "Skyblock"
+          },
+          {
+            "tab": "Smp"
+          },
+          {
+            "tab": "Discord Szerver"
+          }
         ]
-      },
-      {
-        "tab": "KitPvP"
-      },
-      {
-        "tab": "Kingdoms"
-      },
-      {
-        "tab": "Creative"
-      },
-      {
-        "tab": "Skyblock"
-      },
-      {
-        "tab": "Smp"
-      },
-      {
-        "tab": "Discord Szerver"
       }
     ]
   },
