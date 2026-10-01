@@ -44,7 +44,10 @@
             "tab": "Smp"
           },
           {
-            "tab": "Discord Szerver"
+            "tab": "Discord Szerver",
+            "pages": [
+              "music-play"
+            ]
           }
         ]
       }
