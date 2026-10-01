@@ -3,7 +3,7 @@ title: "Zene Lejátszás"
 description: "A Zortexia Discord szerverén több zenei bot is rendelkezésre áll, amelyekkel egyszerűen lejátszhatsz zenéket hangcsatornákban."
 ---
 
-## Elérhető botok
+## Elérhető Botok
 
 - **ina**
 - **Flavibot**
@@ -23,17 +23,17 @@ flm!
 
 ### Fontos változás
 
-> [!WARNING] **2026. október 28-tól megszűnik a prefix parancsok támogatása.**
->
-> Ettől a dátumtól kezdve a Flavibot kizárólag **Slash Commandokkal** vagy a következő megemlítéssel használható:
->
-> ```text
-> @flavibot
-> ```
+<Warning>
+  **2026. október 28-tól megszűnik a prefix parancsok támogatása.**
 
----
+  Ettől a dátumtól kezdve a Flavibot kizárólag **Slash Commandokkal** vagy a következő megemlítéssel használható:
 
-## Zenevezérlő csatornák
+  ```text
+  @Flavibot
+  ```
+</Warning>
+
+## Zenevezérlő Csatornák
 
 A zene kezelésére az alábbi csatornák használhatók:
 
@@ -66,9 +66,11 @@ A zene kezelésére az alábbi csatornák használhatók:
 | `flm!join` | A bot csatlakozik a hangcsatornához. |
 | `flm!leave` | A bot kilép a hangcsatornából. |
 
-> [!IMPORTANT] **2026. október 28. után** a fenti prefix parancsok (`flm!`) már nem lesznek támogatottak.
->
-> Helyettük Slash Commandok (`/play`, `/skip`, stb.) vagy a `@flavibot` megemlítés használható.
+<Danger>
+  **2026. október 28. után** a fenti prefix parancsok (`flm!`) már nem lesznek támogatottak.
+
+  Helyettük Slash Commandok (`/play`, `/skip`, stb.) vagy a `@flavibot` megemlítés használható.
+</Danger>
 
 ---
 
@@ -107,7 +109,7 @@ Példák:
 
 ---
 
-## Használati útmutató
+## Használati Útmutató
 
 1. Csatlakozz egy hangcsatornához.
 2. Nyisd meg valamelyik zenevezérlő csatornát.
@@ -117,35 +119,32 @@ Példák:
 
 ---
 
-## Tippek
+<Tip>
+  - Használj YouTube linket vagy kulcsszavas keresést.
+  - A várólistához több szám is hozzáadható.
+  - A hangerő módosítása minden felhasználóra hat a hangcsatornában.
+  - A Slash Commandok használata ajánlott, mivel hosszú távon ezek maradnak támogatottak.
+</Tip>
 
-> [!TIP]
->
-> - Használj YouTube linket vagy kulcsszavas keresést.
-> - A várólistához több szám is hozzáadható.
-> - A hangerő módosítása minden felhasználóra hat a hangcsatornában.
-> - A Slash Commandok használata ajánlott, mivel hosszú távon ezek maradnak támogatottak.
+## Gyakori Problémák
 
----
-
-## Gyakori problémák
-
-### A bot nem csatlakozik
+### A Bot Nem Csatlakozik
 
 - Ellenőrizd, hogy hangcsatornában tartózkodsz.
 - Győződj meg róla, hogy a bot rendelkezik a megfelelő jogosultságokkal.
 
-### Nincs hang
+### Nincs Hang
 
 - Ellenőrizd a bot hangerőszintjét.
 - Nézd meg, hogy nincs-e némítva a bot.
 - Próbáld újra a `/play` vagy `@flavibot play` parancsot.
 
-### A parancs nem működik
+### A Parancs Nem Működik
 
 Lehetséges okok:
 
-- hibás parancsnév,
-- nincs jogosultság,
-- a prefix parancsok már megszűntek (2026. október 28. után),
-- a bot jelenleg nem érhető el.
+- Hibás parancsnév,
+- Nincs jogosultság,
+- A prefix parancsok már megszűntek (2026. október 28. után),
+- A bot jelenleg nem érhető el.
+- Vagy unkown track hibát jelez akkor is amikor elérhető azonnal szólni kell a vezetőségnek erről!
