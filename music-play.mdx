@@ -1,3 +1,151 @@
 ---
 title: "Zene Lejátszás"
+description: "A Zortexia Discord szerverén több zenei bot is rendelkezésre áll, amelyekkel egyszerűen lejátszhatsz zenéket hangcsatornákban."
 ---
+
+## Elérhető botok
+
+- **ina**
+- **Flavibot**
+- **Rythm**
+
+---
+
+## Flavibot
+
+### Prefix
+
+Jelenlegi prefix:
+
+```text
+flm!
+```
+
+### Fontos változás
+
+> [!WARNING] **2026. október 28-tól megszűnik a prefix parancsok támogatása.**
+>
+> Ettől a dátumtól kezdve a Flavibot kizárólag **Slash Commandokkal** vagy a következő megemlítéssel használható:
+>
+> ```text
+> @flavibot
+> ```
+
+---
+
+## Zenevezérlő csatornák
+
+A zene kezelésére az alábbi csatornák használhatók:
+
+| Csatorna | Leírás |
+| --- | --- |
+| `◜〔🎛️〕ina-vezérlés〔🎛️〕` | Az **ina** bot vezérlése. |
+| `¦〔🎛️〕flavibot-vezérlés〔🎛️〕` | A **Flavibot** vezérlése. |
+| `¦〔🎛️〕zene-kezelés〔🎛️〕` | Általános zenevezérlő csatorna. |
+
+---
+
+# Parancsok
+
+## Flavibot
+
+| Parancs | Leírás |
+| --- | --- |
+| `flm!play <zene>` | Zene lejátszása YouTube vagy keresés alapján. |
+| `flm!pause` | A lejátszás szüneteltetése. |
+| `flm!resume` | A szüneteltetett zene folytatása. |
+| `flm!skip` | A jelenlegi szám átugrása. |
+| `flm!stop` | Leállítja a lejátszást és kiüríti a várólistát. |
+| `flm!queue` | Megjeleníti a várólistát. |
+| `flm!nowplaying` | Megmutatja az éppen lejátszott zenét. |
+| `flm!volume <0-100>` | A hangerő módosítása. |
+| `flm!loop` | Az aktuális szám vagy a teljes várólista ismétlése. |
+| `flm!shuffle` | A várólista összekeverése. |
+| `flm!remove <szám>` | Egy adott szám eltávolítása a várólistából. |
+| `flm!clear` | A várólista kiürítése. |
+| `flm!join` | A bot csatlakozik a hangcsatornához. |
+| `flm!leave` | A bot kilép a hangcsatornából. |
+
+> [!IMPORTANT] **2026. október 28. után** a fenti prefix parancsok (`flm!`) már nem lesznek támogatottak.
+>
+> Helyettük Slash Commandok (`/play`, `/skip`, stb.) vagy a `@flavibot` megemlítés használható.
+
+---
+
+## ina
+
+Az **ina** bot támogatja a Discord Slash Command rendszerét.
+
+Példák:
+
+| Parancs | Leírás |
+| --- | --- |
+| `/play` | Zene lejátszása. |
+| `/pause` | Lejátszás szüneteltetése. |
+| `/resume` | Lejátszás folytatása. |
+| `/skip` | Következő szám. |
+| `/queue` | Várólista megtekintése. |
+| `/stop` | Lejátszás leállítása. |
+| `/volume` | Hangerő módosítása. |
+
+---
+
+## Rythm
+
+Amennyiben a Rythm bot elérhető a szerveren, a legtöbb funkció Slash Commandokon keresztül használható.
+
+Példák:
+
+| Parancs | Leírás |
+| --- | --- |
+| `/play` | Zene lejátszása. |
+| `/pause` | Szüneteltetés. |
+| `/resume` | Folytatás. |
+| `/skip` | Következő szám. |
+| `/queue` | Várólista. |
+| `/stop` | Lejátszás leállítása. |
+
+---
+
+## Használati útmutató
+
+1. Csatlakozz egy hangcsatornához.
+2. Nyisd meg valamelyik zenevezérlő csatornát.
+3. Add ki a kívánt parancsot.
+4. A bot automatikusan csatlakozik a hangcsatornához.
+5. A zene a várólistához adódik, ha már folyamatban van egy lejátszás.
+
+---
+
+## Tippek
+
+> [!TIP]
+>
+> - Használj YouTube linket vagy kulcsszavas keresést.
+> - A várólistához több szám is hozzáadható.
+> - A hangerő módosítása minden felhasználóra hat a hangcsatornában.
+> - A Slash Commandok használata ajánlott, mivel hosszú távon ezek maradnak támogatottak.
+
+---
+
+## Gyakori problémák
+
+### A bot nem csatlakozik
+
+- Ellenőrizd, hogy hangcsatornában tartózkodsz.
+- Győződj meg róla, hogy a bot rendelkezik a megfelelő jogosultságokkal.
+
+### Nincs hang
+
+- Ellenőrizd a bot hangerőszintjét.
+- Nézd meg, hogy nincs-e némítva a bot.
+- Próbáld újra a `/play` vagy `@flavibot play` parancsot.
+
+### A parancs nem működik
+
+Lehetséges okok:
+
+- hibás parancsnév,
+- nincs jogosultság,
+- a prefix parancsok már megszűntek (2026. október 28. után),
+- a bot jelenleg nem érhető el.
