@@ -12,10 +12,7 @@
     "pages": [
       {
         "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
+        "pages": ["index", "quickstart"]
       }
     ],
     "languages": [
@@ -24,9 +21,7 @@
         "tabs": [
           {
             "tab": "Üdvőzlés",
-            "pages": [
-              "welcome"
-            ]
+            "pages": ["welcome"]
           },
           {
             "tab": "KitPvP"
@@ -45,9 +40,7 @@
           },
           {
             "tab": "Discord Szerver",
-            "pages": [
-              "music-play"
-            ]
+            "pages": ["discord-server/music-play"]
           }
         ]
       }
@@ -71,12 +64,7 @@
     }
   },
   "contextual": {
-    "options": [
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "grok"
-    ]
+    "options": ["chatgpt", "claude", "perplexity", "grok"]
   },
   "footer": {
     "socials": {
